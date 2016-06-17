@@ -50,9 +50,12 @@ class Juego{
     }
         
     public void jugando(){
-            for (int i = 0; i < 10; i++) {
-                System.out.println(turno);
-                turno = (turno+1) % 4;
+        int nJugadores = jugadores.size();
+        
+        while(true){
+            
+            // Se actualiza el turno
+            turno = (turno+1) % nJugadores;
         }
     }
         
