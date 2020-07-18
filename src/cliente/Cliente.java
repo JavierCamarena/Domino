@@ -19,5 +19,17 @@ public class Cliente {
         Socket socket = new Socket(serverIp,puerto);
     }
 
+
     public fun3(){}
+
+    public void fung(){
+    	//nueva funcion
+    }
+
+<<<<<<< HEAD
+=======
+    public void fun2(){
+    	//some
+    }
+>>>>>>> e5c7870... added second function
 }
