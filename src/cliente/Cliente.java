@@ -18,4 +18,6 @@ public class Cliente {
         int puerto = 9100;
         Socket socket = new Socket(serverIp,puerto);
     }
+
+    public fun3(){}
 }
